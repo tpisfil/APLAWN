@@ -1,0 +1,442 @@
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: rgb(5,3,126);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13pt;
+	font-weight: 200;
+	color: #656565;
+}
+
+
+h1, h2,h3
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	color: rgb(5,3,126);
+}
+
+.ratingFont
+{
+	font-size: 13pt;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	color: rgb(5,3,126);
+}
+
+
+.white
+{
+	color: white;
+}
+
+p
+{
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+#wrapper
+{
+	background: rgb(5,3,126);
+}	
+
+.container
+{
+	overflow: hidden;
+	margin: 0em auto;
+	width: 1000px;
+}
+
+table {
+	margin-left: auto; 
+	margin-right: auto;
+	/* margin-top: -15px; */
+}
+
+td
+{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.alignJustified 
+{
+	text-align: justify;
+}
+
+#logo
+{
+position: absolute;
+top: 20px;
+left: 0;
+}
+
+#header
+{
+position: relative;
+padding: 5em 0em 6em;
+}
+
+#menu
+{
+position: absolute;
+top: 4.5em;
+right: 0;
+}
+
+#menu ul
+{
+display: inline-block;
+}
+
+#menu li
+{
+display: block;
+float: left;
+text-align: center;
+}
+
+#menu li a, #menu li span
+{
+padding: 1em 1.5em;
+letter-spacing: 1px;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 0.8em;
+color: rgb(5,3,126);
+}
+
+#menu li:hover a
+{
+color: rgb(5,3,126, 0.5);
+}
+
+#menu .current_page_item a
+{
+border: 2px solid rgb(5,3,126);
+background: rgb(5,3,126);
+border-radius: 6px;
+color: #FFF;
+}
+
+#menu .current_page_item:hover a
+{
+	color: gold;
+}
+
+#banner
+{
+padding: 15em;
+background: url(../img/banner.jpg) no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+#mainBlock
+{
+overflow: hidden;
+padding: 4em 0em;
+background: rgb(5,3,126);
+color: rgba(255,255,255,.8);
+text-align: center;
+}
+
+#mainBlock a
+{
+color: rgba(255,255,255,1);
+}
+
+#mainBlock .button
+{
+background: #FFF;
+margin-top: 3em;
+font-size: 1em;
+color: rgb(5,3,126);
+}
+
+#mainBlock .title h2
+{
+color: #FFF;
+}
+
+#mainBlock .title .subtitle
+{
+color: rgba(255,255,255,.6);
+}
+
+#homepageP
+{
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+#ratingsSection
+{
+	margin-bottom: 0em; 
+	margin-top: 3em;
+}
+
+.button
+{
+display: inline-block;
+padding: 0em 3em;
+background: rgb(5,3,126);
+border-radius: 8px;
+letter-spacing: 0.20em;
+line-height: 4em;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: 400;
+font-size: 1em;
+color: #FFF;
+}
+
+.button:before
+{
+display: inline-block;
+background: #FFC31F;
+margin-right: 1em;
+width: 40px;
+height: 40px;
+line-height: 40px;
+border-radius: 20px;
+text-align: center;
+color: #272925;
+}
+
+#subBlock
+{
+padding: 4em 0em 0em 0em;
+text-align: center;
+overflow: hidden;
+}
+
+.box
+{
+padding: 3em 2em 2em 2em;
+margin-bottom: 3em;
+border: 1px solid rgba(5,3,126,0.15);
+border-radius: 8px;
+text-align: center;
+}
+
+.circle
+{
+	border-radius: 50%;
+	/* vertical-align: 4em; */
+}
+
+.spaceBetweenCells
+{
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.blueStars
+{
+display: block;
+margin-bottom: 0.5em;
+text-align: center;
+font-size: 2em;
+color: rgb(5,3,126, 0.8);
+}
+
+#copyright
+{
+overflow: hidden;
+background: rgb(5,3,126);
+width: 100%;
+padding: 5em 0em 3em;
+border-top: 1px solid rgba(255,255,255,0.08);
+text-align: center;
+font-size: 1em;
+color: rgba(255,255,255,0.5);
+}
+
+.title
+{
+margin-bottom: 3em;
+}
+
+.title h2
+{
+text-transform: uppercase;
+font-size: 2.7em;
+}
+
+.subtitle
+{
+font-size: 1.7em;
+color: rgb(5,3,126, 0.7);
+}
+
+.emailUs
+{
+	background-color: rgb(5,3,126);
+	color: white;
+	margin-bottom: 3em;
+	border-radius: 15px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+	margin-left: 10em;
+	margin-right: 10em;
+	text-align: left;
+}
+
+#emailUsTitle
+{
+	text-align: center;
+}
+
+.inputBox
+{
+	width: 570px;
+	margin-top: 1em;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgb(0,0,0, 0.65);
+	font-size: 13px;
+	opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: rgb(0,0,0, 0.65);
+	font-size: 13px;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+	color: rgb(0,0,0, 0.65);
+	font-size: 13px;
+  }
+	
+/* 3-column */
+
+.boxA,
+.boxB,
+.boxC
+{
+width: 320px;
+}
+
+.boxA,
+.boxB
+{
+float: left;
+margin-right: 20px;
+}
+
+.boxC
+{
+float: right;
+}
+
+/* 2-column */
+
+.tbox1,
+.tbox2
+{
+width: 48%;
+}
+
+.tbox1
+{
+float: left;
+}
+
+.tbox2
+{
+float: right;
+}
+
+.aboutUsBox1
+{
+width: 48%;
+float: left;
+}
+
+.aboutUsBox2
+{
+width: 48%;
+float: right;
+}
+
+.navy
+{
+	color: rgb(5,3,126);
+}
+
+.blueBorder
+{
+	border: rgb(5,3,126);
+	border-style: solid;
+	border-width: 5px;
+	margin-top: 2em;
+	/* vertical-align: -18em; */
+}
+
+.whiteBorder
+{
+	border: white;
+	border-style: solid;
+	border-width: 5px;
+	margin-top: 2em;
+	/* vertical-align: -19em; */
+}
+
+#leafRemovalList
+{
+	margin-top: 5em;
+}
+
+#winterServicesList
+{
+	margin-top: 3em;
+}
+
+#aboutUsPic1
+{
+	margin-bottom: 8em;
+}
+
+#treeWorkList
+{
+	margin-top: 2.5em;
+}
+
+#treeWorkPic
+{
+	margin-bottom: 3em;
+}
+
+#hardscapeList
+{
+	margin-top: 3em;
+}
+
+#hardscapePic
+{
+	margin-bottom: 3em;
+}
+
+#snowPic
+{
+	margin-bottom: 3em;
+}
